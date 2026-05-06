@@ -1634,7 +1634,7 @@ a.contact-item:visited .contact-val { color: var(--cream); }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 15%;
   display: block;
 }
 .hero-photo-wrap::after {
@@ -1662,6 +1662,21 @@ a.contact-item:visited .contact-val { color: var(--cream); }
   transition: transform 0.5s ease;
 }
 .about-photo-wrap:hover img { transform: scale(1.03); }
+
+/* MOBILE: about photo shows full image, no crop */
+@media (max-width: 1000px) {
+  .about-photo-wrap {
+    aspect-ratio: unset;
+    height: auto;
+    overflow: visible;
+  }
+  .about-photo-wrap img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: unset;
+  }
+}
 
 /* CASE STUDY: full photo visible, no crop */
 .case-photo-wrap {
@@ -1703,6 +1718,24 @@ a.contact-item:visited .contact-val { color: var(--cream); }
   bottom: 0; left: 0; right: 0;
   padding: 28px 32px;
   background: linear-gradient(to top, rgba(44,62,45,0.92) 0%, transparent 100%);
+}
+
+/* MOBILE: review photo shows full image */
+@media (max-width: 1000px) {
+  .review-photo-card {
+    min-height: unset;
+  }
+  .review-photo-card img {
+    height: auto;
+    min-height: unset;
+    object-fit: contain;
+    object-position: unset;
+  }
+  .review-photo-card-overlay {
+    position: relative;
+    background: var(--sage-deep);
+    padding: 20px 24px;
+  }
 }
 .review-photo-card-label {
   font-size: 9px;
