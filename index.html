@@ -1316,22 +1316,67 @@ a.contact-item:visited .contact-val { color: var(--cream); }
   }
   .nav-links.open a { font-size: 18px; letter-spacing: 3px; }
   .nav-hamburger { display: flex; }
+
+  /* Hero */
   .hero { grid-template-columns: 1fr; min-height: auto; }
-  .hero-left { padding: 100px 28px 60px; }
-  .hero-right { min-height: 420px; padding: 44px 28px; }
+  .hero-left { padding: 100px 24px 60px; }
+  .hero-right { min-height: 380px; padding: 36px 24px; }
+  .hero-actions { flex-direction: column; gap: 12px; }
+  .hero-actions .btn-primary,
+  .hero-actions .btn-outline { width: 100%; justify-content: center; text-align: center; }
+
+  /* About */
+  .about-section { padding: 72px 24px; }
   .about-layout { grid-template-columns: 1fr; gap: 40px; }
-  .specialty-grid { grid-template-columns: repeat(3, 1fr); }
-  .reasons-section, .data-section, .case-section, .approach-section, .closing-section, .review-section { padding: 80px 28px; }
-  .about-section, .specialty-band { padding: 80px 28px; }
-  .reason-row { grid-template-columns: 50px 1fr; grid-template-rows: auto auto; }
-  .reason-right { grid-column: 2; }
+  .about-photo-wrap { aspect-ratio: 4/3; }
+  .about-photo-wrap img { object-position: center 20%; }
+
+  /* Specialty band */
+  .specialty-band { padding: 60px 24px; }
+  .specialty-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* Why Me - reason rows: stack as flex column, body reads full width */
+  .reasons-section { padding: 72px 24px; }
+  .reason-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 32px 0;
+  }
+  .reason-num-large { display: none; }
+  .reason-body { padding-top: 0; font-size: 14px; line-height: 1.8; }
+
+  /* Data / Results */
+  .data-section { padding: 72px 24px; }
   .data-story-grid { grid-template-columns: 1fr; gap: 48px; }
+  .kpi-stack { grid-template-columns: 1fr 1fr; }
+
+  /* Growth chart */
+  .growth-section { padding: 72px 24px; }
+  .chart-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .chart-bars-row { min-width: 560px; }
+  .growth-callout-row { grid-template-columns: 1fr; gap: 12px; margin-top: 36px; }
+
+  /* Case study */
+  .case-section { padding: 72px 24px; }
   .case-layout { grid-template-columns: 1fr; }
   .email-wrapper { position: static; }
-  .email-shell { transform: none; }
+  .email-shell { transform: none; width: 100%; }
+
+  /* Approach */
+  .approach-section { padding: 72px 24px; }
   .approach-layout { grid-template-columns: 1fr; }
-  .docs-card { position: static; }
+  .docs-card { position: static; margin-top: 40px; }
+
+  /* Reviews */
+  .review-section { padding: 72px 24px; }
   .review-card-wrap { grid-template-columns: 1fr; }
+
+  /* Contact / Closing */
+  .closing-section { padding: 100px 24px; }
+  .contact-grid { gap: 28px; }
+  .contact-cta-row { flex-direction: column; align-items: center; }
+  .contact-btn { width: 100%; max-width: 320px; justify-content: center; text-align: center; }
 }
 
 /* ── GROWTH CHART SECTION ── */
