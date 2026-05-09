@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jalil Lewis — Healthcare Operations</title>
+  <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <!-- All styles live in styles.css -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+       TO UPDATE NAV LINKS: find the <nav> tag below
+  ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">JL</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#philosophy">Philosophy</a></li>
+        <li><a href="#executive-summary">Results</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#insights">Insights</a></li>
+        <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
+      </ul>
+      <!-- Mobile hamburger -->
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile nav drawer -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#philosophy" class="mobile-link">Philosophy</a></li>
+      <li><a href="#executive-summary" class="mobile-link">Results</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#community" class="mobile-link">Community</a></li>
+      <li><a href="#insights" class="mobile-link">Insights</a></li>
+      <li><a href="#contact" class="mobile-link">Get In Touch</a></li>
+    </ul>
+  </div>
+
+
+  <!-- ============================================================
+       HERO SECTION
+       TO UPDATE YOUR HEADLINE OR SUBHEADLINE: edit the h1 and .hero-sub below
+       TO UPDATE YOUR REVENUE NUMBER: search this file for "597" — update both here and in #revenue-stat
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+
+      <div class="hero-text fade-in-up">
+        <p class="hero-eyebrow">Brooklyn, NY · Healthcare Operations</p>
+        <h1 class="hero-name">Jalil<br/>Lewis</h1>
+        <p class="hero-sub">
+          Building healthcare practices that work — for patients, for teams, and for the bottom line.
+        </p>
+        <!-- TO UPDATE YOUR REVENUE NUMBER FIND THIS SECTION -->
+        <div class="hero-stat-pill">
+          <span class="hero-stat-label">Protocol Revenue Generated</span>
+          <span class="hero-stat-value" id="revenue-stat" data-target="597000">$0</span>
+          <span class="hero-stat-note">Captured through Q4 2025 — and still climbing</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#executive-summary" class="btn btn-primary">See the Results</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-photo fade-in-up delay-1">
+        <!-- ============================================================
+             JALIL'S HEADSHOT — HERO SECTION
+             File: IMG_3608.jpeg — already included in this folder.
+        ============================================================ -->
+        <div class="hero-photo-frame">
+          <img
+            src="IMG_3608.jpeg"
+            alt="Jalil Lewis — Healthcare Operations professional"
+            class="hero-img"
+            onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')"
+          />
+        </div>
+      </div>
+
+    </div>
+    <!-- Decorative background accent -->
+    <div class="hero-bg-accent" aria-hidden="true"></div>
+  </section>
+
+
+  <!-- ============================================================
+       MEET JALIL — PERSONAL INTRODUCTION SECTION
+       TO UPDATE BIO TEXT: edit the paragraphs inside .about-body below
+  ============================================================ -->
+  <section class="section about reveal" id="about">
+    <div class="container">
+      <div class="section-label">Meet Jalil</div>
+      <div class="about-grid">
+
+        <div class="about-text">
+          <h2 class="section-heading">A person first.<br/>An operator second.</h2>
+
+          <div class="about-body">
+            <p>
+              Jalil Lewis grew up in Park Slope, Brooklyn — a neighborhood that taught him early that community is
+              not just a backdrop, it is something you actively build. From the beginning, he was the kind of person
+              people gravitated toward. Warm, perceptive, and genuinely curious about others. That quality was never
+              something he cultivated for professional reasons. It was simply who he was. And it turned out to be
+              exactly what healthcare needed.
+            </p>
+            <p>
+              What drives him most is taking something broken and making it work. Small business rehabilitation,
+              protocol creation, turning operations from the red to the black to the green — these are not just
+              professional interests. They are a calling. He believes deeply that the environment a team works in
+              directly shapes the results they produce, and that the most meaningful business wins happen when the
+              people inside the building actually feel supported.
+            </p>
+            <p>
+              His philosophy is rooted in a simple but powerful belief: every person who walks through a healthcare
+              door is already carrying something. Maybe it is fear. Maybe it is a bill they cannot figure out.
+              Maybe it is a diagnosis they do not fully understand yet. His job has always been to meet them there
+              and make at least one part of that easier. He is committed to value-based care — the idea that
+              healthcare should be measured not just by what is done, but by how it changes someone's life.
+            </p>
+            <p>
+              It is also worth saying plainly: everything Jalil has built — the protocols, the training systems,
+              the pro bono cases, the practice growth — was accomplished while he was a full-time college student.
+              Not after graduation. During. Every metric on this page was earned in parallel with coursework,
+              deadlines, and everything else that comes with being a student. That context does not make the
+              numbers bigger. It makes them mean something different.
+            </p>
+          </div>
+        </div>
+
+        <!-- Annie Chung / Youbin Chung photo — relationship section -->
+        <div class="about-photo-col">
+          <!-- ============================================================
+               JALIL + ANNIE CHUNG PHOTO
+               File: IMG_3820.jpeg — already included in this folder.
+               Annie Chung (Youbin Chung) was the head treatment coordinator
+               at Lumia Dental who trained Jalil from day one.
+          ============================================================ -->
+          <div class="about-photo-frame">
+            <img
+              src="IMG_3820.jpeg"
+              alt="Jalil Lewis with Annie (Youbin) Chung, head treatment coordinator at Lumia Dental"
+              class="about-img"
+              onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')"
+            />
+            <p class="photo-caption">With Annie (Youbin) Chung — the person who trained Jalil from day one at Lumia Dental.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PHILOSOPHY SECTION
+       TO UPDATE YOUR PHILOSOPHY: edit the blockquote and paragraphs below
+  ============================================================ -->
+  <section class="section philosophy reveal" id="philosophy">
+    <div class="container">
+      <div class="section-label">The Philosophy</div>
+      <div class="philosophy-inner">
+        <h2 class="section-heading philosophy-heading">Business excellence<br/>and human compassion<br/>are not opposites.</h2>
+        <div class="philosophy-body">
+          <p>
+            The healthcare system is broken in ways that hurt real people every day. Patients walk in already
+            overwhelmed — by insurance confusion, by financial stress, by procedures they do not fully understand.
+            The system creates distance when it should be creating clarity.
+          </p>
+          <p>
+            Jalil's mission is to fix that from the inside. Not by overhauling the system overnight, but by making
+            every single interaction clearer, warmer, and more manageable. When the systems work — when the billing
+            flows, the scheduling holds, the training is solid, and the staff knows exactly what they are doing —
+            patients feel it. They relax a little. They trust more. They heal better.
+          </p>
+          <p>
+            That is the standard he holds himself to: when the business runs well, the humanity of healthcare has
+            room to show up. The two are not in tension. They are the same goal expressed in different ways.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       EXECUTIVE SUMMARY — HIGHLIGHT REEL
+       TO UPDATE STATS: find each .es-stat block below and update the number and label
+  ============================================================ -->
+  <section class="section executive-summary reveal" id="executive-summary">
+    <div class="container">
+      <div class="section-label">By the Numbers</div>
+      <h2 class="section-heading">The highlight reel.</h2>
+      <div class="es-grid">
+
+        <div class="es-card">
+          <!-- TO UPDATE YOUR REVENUE NUMBER FIND THIS SECTION -->
+          <div class="es-number" id="es-revenue" data-target="597000" data-prefix="$">$0</div>
+          <div class="es-label">Protocol revenue generated at Lumia Dental — captured through Q4 2025, with growth continuing beyond that point.</div>
+        </div>
+
+        <div class="es-card">
+          <div class="es-number">2×</div>
+          <div class="es-label">Practice operatories doubled — from 7 to 14 in 3 months (Nov 2023 through early 2024), with Jalil training staff throughout the entire expansion.</div>
+        </div>
+
+        <div class="es-card">
+          <div class="es-number">$6.8K–$8.9K</div>
+          <div class="es-label">Average fee per case under Jalil's coordination protocols — consistent, high-value outcomes across the board.</div>
+        </div>
+
+        <div class="es-card">
+          <div class="es-number">$30K</div>
+          <div class="es-label">Full pro bono treatment coordinated for a Providence House referral — from clinical planning through completion.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       WORK EXPERIENCE SECTION
+       TO ADD A NEW EMPLOYER: copy one .exp-block and fill in your details
+  ============================================================ -->
+  <section class="section experience reveal" id="experience">
+    <div class="container">
+      <div class="section-label">Work Experience</div>
+      <h2 class="section-heading">Built from every angle.</h2>
+
+      <!-- ==================== LUMIA DENTAL ==================== -->
+      <div class="exp-block">
+        <div class="exp-header">
+          <div class="exp-meta">
+            <h3 class="exp-company">Lumia Dental</h3>
+            <p class="exp-role">Treatment Coordinator · Lead Protocol Architect</p>
+            <p class="exp-period">Brooklyn, NY</p>
+          </div>
+          <div class="exp-badge">Case Study</div>
+        </div>
+
+        <div class="exp-body">
+          <p>
+            Lumia Dental, founded by Dr. Michelle Han, is a high-performance dental practice in Brooklyn. When Jalil
+            joined under the mentorship of Dr. Raven Drummond, the practice had strong clinical talent but needed
+            operational architecture to match. He built it.
+          </p>
+          <p>
+            Starting from scratch, Jalil designed and implemented the treatment coordination protocols that would
+            define how the practice operated. He trained incoming staff, standardized patient communication, and
+            systematized the financial workflow from consultation through case acceptance. The results compounded
+            quickly.
+          </p>
+
+          <!-- TO UPDATE YOUR REVENUE NUMBER FIND THIS SECTION -->
+          <div class="case-stats-row">
+            <div class="case-stat">
+              <span class="case-stat-num">$597K+</span>
+              <span class="case-stat-lbl">Protocol Revenue (through Q4 2025)</span>
+            </div>
+            <div class="case-stat">
+              <span class="case-stat-num">7 → 14</span>
+              <span class="case-stat-lbl">Operatories in 3 months</span>
+            </div>
+            <div class="case-stat">
+              <span class="case-stat-num">$6.8K–$8.9K</span>
+              <span class="case-stat-lbl">Avg. case fee</span>
+            </div>
+          </div>
+
+          <p>
+            The practice grew from 7 to 14 operatories between November 2023 and early 2024. Throughout that
+            expansion, Jalil trained every incoming staff member — not just on systems, but on the standard of
+            patient care that Dr. Drummond had set. The protocols held. The numbers reflected it.
+          </p>
+          <p>
+            What made the difference was not just operational rigor. It was the combination of genuine care for
+            patients, a well-trained team, and systems that left no room for guesswork. When all three existed
+            at once, the practice did not just grow. It transformed.
+          </p>
+        </div>
+      </div>
+
+      <!-- ==================== MEDRITE URGENT CARE ==================== -->
+      <div class="exp-block reveal">
+        <div class="exp-header">
+          <div class="exp-meta">
+            <h3 class="exp-company">MedRite Urgent Care</h3>
+            <p class="exp-role">Lab Technician · Clinical Support · Reception</p>
+            <p class="exp-period">Brooklyn, NY</p>
+          </div>
+        </div>
+
+        <!-- ============================================================
+             MEDRITE TEAM PHOTO
+             File: IMG_3821.jpeg — already included in this folder.
+             The whole MedRite staff in navy uniforms giving thumbs up.
+        ============================================================ -->
+        <div class="exp-photo-wrap">
+          <img
+            src="IMG_3821.jpeg"
+            alt="Jalil Lewis with the MedRite Urgent Care team in navy uniforms"
+            class="exp-photo"
+            onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder-inline')"
+          />
+          <p class="photo-caption">The MedRite team — where Jalil first learned healthcare from the inside out.</p>
+        </div>
+
+        <div class="exp-body">
+          <p>
+            MedRite Urgent Care gave Jalil something most people never get: a full cross-section of how
+            healthcare actually runs. He did not come in as a specialist. He came in willing to learn, and he
+            earned expanded responsibility at every stage.
+          </p>
+          <p>
+            He began as a lab technician, entering and managing patient results with precision and accountability.
+            From there he moved into a hands-on clinical support role — drawing blood, working directly with
+            patients, and developing the kind of composure that comes from being in the room when someone is
+            scared or in pain. He then transitioned into reception, where he became the first point of contact for
+            patients walking through the door.
+          </p>
+          <p>
+            That progression — clinical to patient-facing to administrative — gave him a perspective most
+            healthcare operators never develop. He has been on every side of the desk. He knows what it feels
+            like to draw someone's blood, to process their results, and then to explain those results to a
+            worried family member at the front counter. That full-circle understanding is foundational to
+            everything he does.
+          </p>
+          <div class="exp-tags">
+            <span class="tag">Lab Operations</span>
+            <span class="tag">Clinical Support (On-the-Job Trained)</span>
+            <span class="tag">Phlebotomy</span>
+            <span class="tag">Patient Relations</span>
+            <span class="tag">Administrative Intake</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       DR. RAVEN DRUMMOND — MENTOR SECTION
+       TO UPDATE MENTOR DETAILS: edit the paragraphs inside .mentor-body
+  ============================================================ -->
+  <section class="section mentor reveal" id="mentor">
+    <div class="container">
+      <div class="section-label">The Foundation</div>
+      <h2 class="section-heading">The mentor who set the standard.</h2>
+
+      <div class="mentor-grid">
+
+        <div class="mentor-photo-col">
+          <!-- ============================================================
+               DR. DRUMMOND'S PHOTO
+               File: IMG_3819.jpeg — already included in this folder.
+               Dr. Drummond in navy Lumia Dental scrubs. The Lumia logo
+               on her scrubs is intentionally kept — it adds authenticity.
+          ============================================================ -->
+          <div class="mentor-photo-frame">
+            <img
+              src="IMG_3819.jpeg"
+              alt="Dr. Raven Drummond, Associate Endodontist at Lumia Dental"
+              class="mentor-img"
+              onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')"
+            />
+            <div class="mentor-photo-label">
+              <strong>Dr. Raven Drummond</strong><br/>
+              Associate Endodontist, Lumia Dental
+            </div>
+          </div>
+        </div>
+
+        <div class="mentor-body">
+          <p class="mentor-origin">
+            Two people from Brooklyn. One had built an extraordinary career through years of rigorous education,
+            clinical training, and an uncompromising standard of care. The other was a college student with
+            natural instincts for people and business, and a hunger to build something meaningful. Dr. Drummond
+            saw that. And she gave Jalil the opportunity to prove it.
+          </p>
+
+          <p>
+            Dr. Raven Drummond is a native New Yorker, born and raised in Brooklyn. She earned her B.S. in
+            Neuroscience and Behavioral Biology from Emory University and her Doctorate of Dental Surgery from
+            Howard University. After graduating, she returned to New York to complete a general practice residency
+            at Harlem Hospital, practiced as a general dentist across the city, and then pursued her postdoctoral
+            degree in endodontics from Rutgers School of Dental Medicine. She is now an Associate Endodontist at
+            Lumia Dental in Brooklyn, a practice founded by Dr. Michelle Han.
+          </p>
+
+          <p>
+            Annie Chung — known also as Youbin Chung — was the head treatment coordinator at Lumia Dental when
+            Jalil started, and she was the person who trained him on the ground level from day one. She taught
+            him the systems, the standards, and the rhythm of a high-performing practice. The knowledge he built
+            on top of that foundation was only possible because of what she laid down first.
+          </p>
+
+          <p>
+            What Dr. Drummond gave Jalil was more than a job. She gave him a standard. She showed him what it
+            looked like when clinical excellence and genuine patient care existed in the same room at the same
+            time. Everything he built at Lumia — the protocols, the staff training, the practice growth, the pro
+            bono cases — was built on the foundation she created. The mentorship shaped not just his career, but
+            his entire philosophy around what healthcare should be and what it can do for people when it is
+            working the way it should.
+          </p>
+
+          <div class="mentor-credentials">
+            <p class="credentials-label">Dr. Drummond's Academic & Clinical Path</p>
+            <ul class="credentials-list">
+              <li>B.S. Neuroscience &amp; Behavioral Biology — Emory University</li>
+              <li>Doctorate of Dental Surgery — Howard University</li>
+              <li>General Practice Residency — Harlem Hospital, New York</li>
+              <li>Postdoctoral Endodontics — Rutgers School of Dental Medicine</li>
+              <li>Associate Endodontist — Lumia Dental, Brooklyn (founded by Dr. Michelle Han)</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       COMMUNITY AND GIVING BACK SECTION
+       TO UPDATE COMMUNITY CONTENT: edit the paragraphs below
+  ============================================================ -->
+  <section class="section community reveal" id="community">
+    <div class="container">
+      <div class="section-label">Rooted in Community</div>
+      <h2 class="section-heading">The work that matters<br/>most doesn't always<br/>show up on a balance sheet.</h2>
+
+      <div class="community-inner">
+
+        <div class="community-block">
+          <h3 class="community-subhead">Where it started: Sunset Park</h3>
+          <p>
+            Growing up in Park Slope, Jalil understood early that community is not just where you live — it is
+            what you do for the people around you. In high school he volunteered consistently with the Salvation
+            Army GAINS Program in Sunset Park, Brooklyn. GAINS is an after-school youth development program
+            serving children in one of Brooklyn's most underserved neighborhoods. He showed up, reliably, and
+            gave his time to young people who needed someone dependable in their corner. That experience did not
+            leave him. It became part of how he measures what success actually means.
+          </p>
+        </div>
+
+        <div class="community-block community-featured">
+          <h3 class="community-subhead">The case that became a north star</h3>
+          <p>
+            A woman came to Lumia Dental referred by Providence House — a Brooklyn organization with over 40 years
+            of experience helping women rebuild their lives after incarceration, domestic violence, and housing
+            instability. She had survived things most people will never face. She had been through the justice
+            system and was working, every single day, to build something new. When she walked in, what she wanted
+            more than anything else was simple.
+          </p>
+          <p>
+            She wanted to be able to smile again.
+          </p>
+          <p>
+            Jalil coordinated a full pro bono treatment plan valued at $30,000. He managed the case from start
+            to finish — navigating the clinical planning, the administrative coordination, and the deeply human
+            side of sitting across from someone who needed to believe that people were genuinely in her corner.
+            The work got done. She completed the full treatment program. She went on to take cooking classes and
+            built a life she could be proud of.
+          </p>
+          <p>
+            That case is not a footnote. It is a north star. It is proof that when business systems run
+            efficiently enough, they create space for generosity. That when you care about people, the work means
+            something far beyond the numbers. Jalil's business acumen and his compassion are not two separate
+            things. They are the same thing, expressed in different ways.
+          </p>
+          <div class="community-stat">
+            <span>$30,000</span> full pro bono treatment · Providence House referral · case managed start to finish
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       INSIGHTS / PERSPECTIVE SECTION
+       TO ADD A NEW INSIGHT POST: copy one .insight-card block and fill in your details
+       Full article content will be added later — these are previews only
+  ============================================================ -->
+  <section class="section insights reveal" id="insights">
+    <div class="container">
+      <div class="section-label">Insights</div>
+      <h2 class="section-heading">Perspective on the work.</h2>
+      <p class="insights-intro">
+        Thinking out loud on dental practice operations, healthcare business design, and the systems that make
+        both work better. Full articles coming soon.
+      </p>
+
+      <div class="insights-grid">
+
+        <!-- TO ADD A NEW INSIGHT POST: copy this card block and fill in your details -->
+        <div class="insight-card">
+          <div class="insight-tag">Practice Operations</div>
+          <h3 class="insight-title">Why Most Dental Practices Leave 30% of Revenue on the Table</h3>
+          <p class="insight-preview">
+            It is almost never a clinical problem. It is a coordination problem — inconsistent treatment
+            presentation, unclear financial conversations, and undertrained front-desk staff. Here is how
+            to fix all three.
+          </p>
+          <span class="insight-link">Coming soon</span>
+        </div>
+
+        <div class="insight-card">
+          <div class="insight-tag">Healthcare Business</div>
+          <h3 class="insight-title">What Value-Based Care Actually Means for a Private Practice</h3>
+          <p class="insight-preview">
+            The term gets thrown around constantly, but almost no one explains how it translates into
+            day-to-day operations. Here is a practical framework for practices that want the philosophy
+            to show up in their numbers.
+          </p>
+          <span class="insight-link">Coming soon</span>
+        </div>
+
+        <div class="insight-card">
+          <div class="insight-tag">Workflow Design</div>
+          <h3 class="insight-title">Training New Staff Without Losing Momentum During a Growth Phase</h3>
+          <p class="insight-preview">
+            When a practice doubles its capacity in three months, the biggest risk is not operational —
+            it is cultural. How you train during a growth phase determines whether the culture scales
+            with the practice or collapses under it.
+          </p>
+          <span class="insight-link">Coming soon</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+       TO UPDATE CONTACT INFO: edit the email and LinkedIn link below
+       The "Get In Touch" nav button scrolls here
+  ============================================================ -->
+  <section class="section contact reveal" id="contact">
+    <div class="container">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-heading">Let's talk about<br/>what you're building.</h2>
+      <p class="contact-sub">
+        Whether you're scaling a practice, fixing a broken system, or building something new in healthcare —
+        Jalil is interested in the conversation.
+      </p>
+      <div class="contact-links">
+        <!-- TO UPDATE YOUR EMAIL: replace the href and link text below -->
+        <a href="mailto:jalil@example.com" class="btn btn-primary contact-btn">
+          Send an Email
+        </a>
+        <!-- TO UPDATE YOUR LINKEDIN: replace the href below with your full LinkedIn URL -->
+        <a href="https://linkedin.com/in/jalillewis" target="_blank" rel="noopener noreferrer" class="btn btn-outline contact-btn">
+          LinkedIn Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+       TO UPDATE FOOTER TEXT: edit the paragraph below
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Jalil Lewis</p>
+      <p class="footer-tagline">Healthcare Operations · Brooklyn, NY</p>
+      <p class="footer-copy">&copy; 2025 Jalil Lewis. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       REUSABLE CASE STUDY TEMPLATE
+       TO ADD A NEW CASE STUDY FROM A NEW EMPLOYER:
+       COPY EVERYTHING BETWEEN THE MARKERS BELOW AND FILL IN YOUR DETAILS.
+       Paste the copy inside the #experience section, after the last .exp-block.
+       The styling is already applied — no extra CSS needed.
+  ============================================================ -->
+  <!--
+  ====== CASE STUDY TEMPLATE START — COPY FROM HERE ======
+
+  <div class="exp-block reveal">
+    <div class="exp-header">
+      <div class="exp-meta">
+        <h3 class="exp-company">[EMPLOYER NAME]</h3>
+        <p class="exp-role">[YOUR ROLE TITLE HERE]</p>
+        <p class="exp-period">[CITY, STATE · DATES]</p>
+      </div>
+      <div class="exp-badge">Case Study</div>
+    </div>
+
+    [OPTIONAL: Add a photo here following the same pattern as MedRite above]
+
+    <div class="exp-body">
+      <p>[OPENING PARAGRAPH — Set the scene. What was the practice or employer? What was the situation when you arrived?]</p>
+      <p>[WHAT YOU DID — Describe the protocols, systems, or changes you implemented.]</p>
+
+      <div class="case-stats-row">
+        <div class="case-stat">
+          <span class="case-stat-num">[$REVENUE OR KEY METRIC]</span>
+          <span class="case-stat-lbl">[LABEL FOR THIS METRIC]</span>
+        </div>
+        <div class="case-stat">
+          <span class="case-stat-num">[METRIC 2]</span>
+          <span class="case-stat-lbl">[LABEL 2]</span>
+        </div>
+        <div class="case-stat">
+          <span class="case-stat-num">[METRIC 3]</span>
+          <span class="case-stat-lbl">[LABEL 3]</span>
+        </div>
+      </div>
+
+      <p>[RESULTS — What changed? What did the numbers look like after?]</p>
+      <p>[CLOSING — What did this role teach you or reinforce?]</p>
+
+      <div class="exp-tags">
+        <span class="tag">[SKILL OR AREA 1]</span>
+        <span class="tag">[SKILL OR AREA 2]</span>
+        <span class="tag">[SKILL OR AREA 3]</span>
+      </div>
+    </div>
+  </div>
+
+  ====== CASE STUDY TEMPLATE END — COPY TO HERE ======
+  -->
+
+
+  <!-- All JavaScript and animations live in script.js -->
+  <script src="script.js"></script>
+
+</body>
+</html>
